@@ -1,0 +1,867 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body {
+height: 100vh;
+width: 100%;
+
+}
+html{
+    overflow-x: hidden;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: orangered;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: antiquewhite;
+    padding: 0vw 10vw;
+    position: fixed;
+    z-index: 999;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: antiquewhite;
+}
+#nav-center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.2vw;
+    gap: 3vw;
+   
+}
+#nav i{
+    font-size: 1.6vw;
+}
+#hero{
+    height: 100vh;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(deg, 120));
+    background: -o-linear-gradient(120 deg orangered rgba(255, 153,0 ));
+    background: linear-gradient(120 deg orangered rgba(255, 153,0 ));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+#hero #fanta{
+    width: 45%; 
+    z-index: 2;
+    position: absolute;
+    -webkit-transition: all cubic-bezier(0.5s);
+    -o-transition: all cubic-bezier(0.5s);
+    transition: all cubic-bezier(0.5s);
+}
+#orange-cut{
+    width: 15%;
+   position: absolute;
+   z-index: 1;
+   top: 8%;
+   left: 33%;
+   -webkit-transition: all cubic-bezier(0.5s);
+   -o-transition: all cubic-bezier(0.5s);
+   transition: all cubic-bezier(0.5s);
+}
+#orange{
+    width: 20%;
+   position: absolute;
+    z-index: 3;
+    top: 65%;
+    left: 50%;
+    -webkit-transition: all cubic-bezier(0.5s);
+    -o-transition: all cubic-bezier(0.5s);
+    transition: all cubic-bezier(0.5s);
+}
+#hero h1 {
+    font-size: 23vw;
+    color: aliceblue;
+}
+
+#leaf{
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    -webkit-transform: rotate(130deg);
+        -ms-transform: rotate(130deg);
+            transform: rotate(130deg);
+    -webkit-transition: all cubic-bezier(0.5s);
+    -o-transition: all cubic-bezier(0.5s);
+    transition: all cubic-bezier(0.5s);
+}
+#leaf2{
+    width: 15%;
+    position: absolute;
+    right: 2%;
+    top: 65%;
+    -webkit-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    -webkit-transition: all cubic-bezier(0.5s);
+    -o-transition: all cubic-bezier(0.5s);
+    transition: all cubic-bezier(0.5s);
+}
+#cocoleaf{
+    top: 10%;
+    right: 0%;
+    width: 15%;
+    position: absolute;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #F8E7D1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#page2-left{
+    height: 100%;
+    width: 50%;
+    background-color: #e97560;
+}
+#page2-left svg {
+    margin-top: 45vh;
+    width: 55%;
+    
+    -webkit-transform: rotateX(45deg);
+    
+            transform: rotateX(45deg); /* Corrected syntax for transform property */
+    left: 100%;
+    color: #ff4500; /* This applies to text elements within the SVG, not the SVG itself */
+}
+
+#page2-right{
+    height: 100%;
+    width: 60%;
+    background-color: #e97560;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5vh;
+   
+}
+#page2-right h1{
+ text-transform: uppercase;
+ color: #fff;
+ font-size: 5vw;
+}
+
+#page2-right p{
+    font-size: 1.2vw;
+    color: #fff;
+    width: 80%;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 5vw;
+    background-color: #4d231c;
+    position: relative;
+}
+.card{height: 70vh;
+    margin-top: 10vh;
+    width: 25vw;
+    background-color: #ebe2e2;
+    background-repeat: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2vh;
+}
+.card h1 {
+    font-size: 3vw;
+    margin-top: 40vh;
+}
+.card button{
+    font-size: 1vw;
+padding: 1vw 2vw;
+border-radius: 50px;
+border: none;
+color: #fff;
+background-color: orange;
+}
+#cocacola{
+    top: 15%;
+    width: 13%;
+    position: absolute;
+}
+#pepsi{
+    top: 12%;
+width: 20%;
+position: absolute;
+}
+.lemon{
+    width: 25vw;
+    top: 0%;
+    position: absolute;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #ff4500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#page5{
+    width: 100%;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 5vw;
+    background-color: red;
+}
+.cards{
+    height:40vh ;
+    width: 25vw;
+    background-color: #fff;
+    border-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow-y: hidden;
+    
+}
+.cards button{
+    margin-bottom: 2vw;
+    font-size: 1vw;
+padding: 1vw 2vw;
+border-radius: 50px;
+border: none;
+color: #fff;
+background-color: orange;
+
+}
+
+#case img{
+    background-color: #fff;
+    margin-bottom: 2vw;
+    border-radius: 30px;
+    width: 100%;
+}
+#case button{
+    margin-bottom: 5.5vw;
+}
+
+#footer{
+    height: 90vh;
+    width: 100%;
+    background-color: #000;
+    color: wheat;
+overflow: hidden;
+}
+
+  #footer h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3vw;
+    font-size: 4vw;
+   
+  }
+  /*#footer h1:hover{
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    
+  }*/
+  .underline1{
+    
+    height: 2px;
+    width: 100vw;
+    background-color: #fff;
+    margin: 1vw 0 ;
+  }
+  #footerdiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20vw;
+    margin-top: 5vw;
+  }
+  .box h5{
+ font-size: 1.5vw;
+ line-height: 3vw;
+  }
+  .box h6{
+    font-size: 3vw;
+  }
+  #copyright{
+    font-style: italic;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 3vw;
+  }
+ 
+  @-webkit-keyframes jagmeet {
+    from {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+       rotate: 0deg;
+        
+    }
+    to {
+        -webkit-transform: translatey(-30px);
+                transform: translatey(-30px);
+        rotate: 10deg;
+       
+    }
+  }
+ 
+  @keyframes jagmeet {
+    from {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+       rotate: 0deg;
+        
+    }
+    to {
+        -webkit-transform: translatey(-30px);
+                transform: translatey(-30px);
+        rotate: 10deg;
+       
+    }
+  }
+
+  #page4 img{
+    height: 80%;
+    width: 80%;
+    -webkit-animation-name: jagmeet;
+            animation-name: jagmeet;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite;
+            animation-iteration-count:infinite;
+   
+
+
+    /* here begins responsive*/
+    
+}
+@media screen and (max-width: 600px) {
+    #orange-cut {
+        width: 20%; /* Adjust width as needed */
+        top: 5%; /* Adjust top position as needed */
+        left: 30%; /* Adjust left position as needed */
+    }
+
+    #orange {
+        width: 20%; /* Adjust width as needed */
+        top: 19%; /* Adjust top position as needed */
+        left: 51%; /* Adjust left position as needed */
+    }
+
+    #hero #fanta{
+        width: 45%; 
+        z-index: 2;
+       top: 16%;
+       left: 31%;
+        -webkit-transition: all cubic-bezier(0.5s);
+        -o-transition: all cubic-bezier(0.5s);
+        transition: all cubic-bezier(0.5s);
+    }
+    
+
+    #main{
+        height: 100vh;
+        width: 100%;
+        background-color: orangered;
+    }
+    #nav{
+        height: 10vh;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        color: antiquewhite;
+        padding: 0vw 10vw;
+        position: fixed;
+        z-index: 999;
+    }
+    
+    #nav a{
+        text-decoration: none;
+        font-size: 3.5vw;
+        color: antiquewhite;
+    }
+    #nav-center{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 1.2vw;
+        gap: 3vw;
+       
+    }
+    #nav i{
+        font-size: 3.5vw;
+    }
+    #hero{
+        height: 85vh;
+        width: 100%;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(deg, 120));
+        background: -o-linear-gradient(120 deg orangered rgba(255, 153,0 ));
+        background: linear-gradient(120 deg orangered rgba(255, 153,0 ));
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+   
+    
+    #hero h1 {
+        font-size: 23vw;
+        color: aliceblue;
+    }
+    
+    #leaf{
+        width: 15%;
+       
+        top: 19%;
+        left: 0%;
+        -webkit-transform: rotate(130deg);
+            -ms-transform: rotate(130deg);
+                transform: rotate(130deg);
+        -webkit-transition: all cubic-bezier(0.5s);
+        -o-transition: all cubic-bezier(0.5s);
+        transition: all cubic-bezier(0.5s);
+    }
+    #leaf2{
+        width: 15%;
+        
+        right: 2%;
+        top: 35%;
+        -webkit-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+        -webkit-transition: all cubic-bezier(0.5s);
+        -o-transition: all cubic-bezier(0.5s);
+        transition: all cubic-bezier(0.5s);
+    }
+    #cocoleaf{
+        top: 10%;
+        right: 0%;
+        width: 40%;
+        
+    }
+
+    #page2{
+        height: 100vh;
+        width: 100%;
+        background-color: #F8E7D1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    #page2-left{
+        height: 100%;
+        width: 50%;
+        background-color: #e97560;
+    }
+    #page2-left svg {
+        margin-top: 45vh;
+        width: 55%;
+        
+        -webkit-transform: rotateX(45deg);
+        
+                transform: rotateX(45deg); /* Corrected syntax for transform property */
+        left: 100%;
+        color: #ff4500; /* This applies to text elements within the SVG, not the SVG itself */
+    }
+    
+    #page2-right{
+        height: 100%;
+        width: 60%;
+        background-color: #e97560;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 5vh;
+       
+    }
+    #page2-right h1{
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 12vw;
+    }
+    
+    #page2-right p{
+        font-size: 3.6vw;
+        color: #fff;
+        width: 90%;
+    }
+    #page3{
+        height: 70vh;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 5vw;
+        background-color: #4d231c;
+        position: relative;
+    }
+    .card{height: 20vh;
+        margin-top: 10vh;
+        width: 30vw;
+        background-color: #ebe2e2;
+        background-repeat: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 1vh;
+    }
+    .card h1 {
+        font-size: 6vw;
+        margin-top: 10vh;
+    }
+    .card button{
+        font-size: 4vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: orange;
+    }
+    #cocacola{
+        top: 30%;
+        width: 15%;
+        position: absolute;
+    }
+    #pepsi{
+        top: 30%;
+    width: 22%;
+    
+    }
+    .lemon{
+        width: 25vw;
+        top: 20%;
+        position: absolute;
+    }
+    #page4{
+        height: 50vh;
+        width: 100%;
+        background-color: #ff4500;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    @-webkit-keyframes jagmeet {
+        from {
+            
+           
+            
+        }
+        to {
+            -webkit-transform: translatey(-5px);
+                    transform: translatey(-5px);
+           
+           
+        }
+
+      }
+    @keyframes jagmeet {
+        from {
+            
+           
+            
+        }
+        to {
+            -webkit-transform: translatey(-5px);
+                    transform: translatey(-5px);
+           
+           
+        }
+
+      }
+      #page4 img{
+        height: 50%;
+        width: 100%;
+        -webkit-animation-name: jagmeet;
+                animation-name: jagmeet;
+        -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+        -webkit-animation-duration: 20s;
+                animation-duration: 20s;
+        -webkit-animation-iteration-count:infinite;
+                animation-iteration-count:infinite;
+       
+    
+}
+    
+    
+    #page5{
+        
+        width: 100%;
+        height: 60vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 1vw;
+        background-color: red;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .cards{
+        height:20vh ;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        overflow-y: hidden;
+        padding: 3vw 2vw;
+    }
+    .cards button{
+        margin-bottom: 2vw;
+        font-size: 4vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: orange;
+    
+    }
+    #swiggy{
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 30vw;
+        -o-object-position: center;
+           object-position: center;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    #blinkit{
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 30vw;
+        -o-object-position: center;
+           object-position: center;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    
+    #case img{
+        background-color: #fff;
+        margin-bottom: 2vw;
+        border-radius: 30px;
+        width: 30%;
+    }
+    #case button{
+        margin-bottom: 5.5vw;
+    }
+    
+    #footer{
+        height: 30vh;
+        width: 100%;
+        background-color: #000;
+        color: wheat;
+    overflow: hidden;
+    }
+    
+      #footer h1{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 3vw;
+        font-size: 5vw;
+       
+      }
+      /*#footer h1:hover{
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        
+      }*/
+      .underline1{
+        
+        height: 2px;
+        width: 100vw;
+        background-color: #fff;
+        margin: 1vw 0 ;
+      }
+      #footerdiv{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 20vw;
+        margin-top: 5vw;
+      }
+      .box h5{
+     font-size: 2.5vw;
+     line-height: 4vw;
+      }
+      .box h6{
+        font-size: 4vw;
+      }
+      #copyright{
+        font-style: italic;
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 3vw;
+      }
+     
+     
+      
+}
